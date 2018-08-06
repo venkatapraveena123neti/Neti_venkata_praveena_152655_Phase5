@@ -10,7 +10,16 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import com.cg.walletapplication.beans.Customer;
 import com.cg.walletapplication.beans.Transaction;
 import com.cg.walletapplication.repo.IWalletRepo;
-
+//------------------------    Wallet Application --------------------------
+		/*******************************************************************************************************
+		 - Class Name	        :	         <WalletServiceImpl>
+		 - Input Parameters	:	<null>
+		 - Return Type		:	<null> <data type>
+		 - Throws			:  	<Application_name>Exception
+		 - Author			:	<Neti_venkata_praveena>
+		 - Creation Date	:	06/08/2018
+		 - Description		:	methods implementing from interface
+		 ********************************************************************************************************/
 @Service("walletservice")
 
 
