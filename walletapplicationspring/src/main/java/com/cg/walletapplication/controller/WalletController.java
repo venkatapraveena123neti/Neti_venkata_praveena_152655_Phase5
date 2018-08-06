@@ -21,7 +21,16 @@ import org.springframework.web.bind.annotation.RestController;
 import com.cg.walletapplication.beans.Customer;
 import com.cg.walletapplication.beans.Transaction;
 import com.cg.walletapplication.service.IWalletService;
-
+  //------------------------    Wallet Application --------------------------
+		/*******************************************************************************************************
+		 - Class Name	        :	         <WalletController>
+		 - Input Parameters	:	<null>
+		 - Return Type		:	<null> <data type>
+		 - Throws			:  	<Application_name>Exception
+		 - Author			:	<Neti_venkata_praveena>
+		 - Creation Date	:	06/08/2018
+		 - Description		:	model is passed to the view i.e. page
+		 ********************************************************************************************************/
 @RestController
 public class WalletController {
 @Autowired
