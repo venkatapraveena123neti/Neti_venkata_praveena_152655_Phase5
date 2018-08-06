@@ -15,7 +15,16 @@ import javax.persistence.Table;
 
 import org.springframework.web.bind.annotation.ModelAttribute;
 
-
+//------------------------    Wallet Application --------------------------
+		/*******************************************************************************************************
+		 - Class Name	        :	         <Transaction>
+		 - Input Parameters	:	<null>
+		 - Return Type		:	<null> <data type>
+		 - Throws			:  	<Application_name>Exception
+		 - Author			:	<Neti_venkata_praveena>
+		 - Creation Date	:	06/08/2018
+		 - Description		:	bean class to connect to database joined to Customer class
+		 ********************************************************************************************************/
 @Entity
 @Table(name="Transactions")
 
