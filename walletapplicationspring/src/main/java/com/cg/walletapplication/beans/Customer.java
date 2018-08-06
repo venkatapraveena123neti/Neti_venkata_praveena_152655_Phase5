@@ -14,6 +14,16 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import com.cg.walletapplication.beans.Transaction;
+//------------------------    Wallet Application --------------------------
+		/*******************************************************************************************************
+		 - Class Name	        :	         <Customer>
+		 - Input Parameters	:	<null>
+		 - Return Type		:	<null> <data type>
+		 - Throws			:  	<Application_name>Exception
+		 - Author			:	<Neti_venkata_praveena>
+		 - Creation Date	:	06/08/2018
+		 - Description		:	bean class to connect to database
+		 ********************************************************************************************************/
 @Entity
 @Table(name = "Customer_Wallet")
 public class Customer implements Serializable{
