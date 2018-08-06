@@ -5,7 +5,16 @@ import java.util.Set;
 
 import com.cg.walletapplication.beans.Customer;
 import com.cg.walletapplication.beans.Transaction;
-
+  //------------------------    Wallet Application --------------------------
+		/*******************************************************************************************************
+		 - Interface Name	        :	         <IWalletService>
+		 - Input Parameters	:	<null>
+		 - Return Type		:	<null> <data type>
+		 - Throws			:  	<Application_name>Exception
+		 - Author			:	<Neti_venkata_praveena>
+		 - Creation Date	:	06/08/2018
+		 - Description		:	methods declaration
+		 ********************************************************************************************************/
 public interface IWalletService {
 
 	void addCustomer(Customer customer);
