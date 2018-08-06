@@ -1,0 +1,41 @@
+show databases;
+
+create database fullstack;
+
+show databases;
+
+use fullstack;
+
+show tables;
+
+
+create database mywallet;
+
+show databases;
+
+use mywallet;
+
+show tables;
+
+
+
+dont create table ...application creates
+
+
+For oracle
+=========================
+
+spring.datasource.username=system
+spring.datasource.password=Capgemini123
+spring.datasource.url=jdbc:oracle:thin:@localhost:1521:XE/fullstack
+spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
+spring.jpa.hibernate.ddl-auto=update
+
+for mysql
+====================================
+
+spring.datasource.username=root
+spring.datasource.password=Capgemini@123
+spring.datasource.url=jdbc:mysql://localhost:3306/fullstack
+spring.datasource.driver-class-name= com.mysql.jdbc.Driver
+spring.jpa.hibernate.ddl-auto=update 
